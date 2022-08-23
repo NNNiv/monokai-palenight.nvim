@@ -13,8 +13,9 @@ function M.colors()
     white = "#f0ecec", 
     comment = "#727a9c"
 }
+end
 
-
+return M
 
 
 
