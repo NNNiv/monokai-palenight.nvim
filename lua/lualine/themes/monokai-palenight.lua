@@ -9,19 +9,19 @@ return {
   },  
   normal = {
     a = { fg = colors.bg, bg = colors.blue, gui = 'bold' },
-    b = { fg = colors.bg, bg = colors.fg },
-    c = { fg = colors.bg, bg = colors.comment},
+    b = { fg = colors.bg, bg = colors.comment },
+    c = { fg = colors.bg, bg = colors.purple },
   },
   visual = {
     a = { fg = colors.bg, bg = colors.purple, gui = 'bold' },
-    b = { fg = colors.bg, bg = colors.fg },
+    b = { fg = colors.bg, bg = colors.comment },
   },
   replace = {
     a = { fg = colors.bg, bg = colors.orange, gui = 'bold' },
-    b = { fg = colors.bg, bg = colors.fg },
+    b = { fg = colors.bg, bg = colors.comment },
   },
   insert = {
     a = { fg = colors.bg, bg = colors.green, gui = 'bold' },
-    b = { fg = colors.bg, bg = colors.fg },
+    b = { fg = colors.bg, bg = colors.comment },
   }
 }
