@@ -8,7 +8,7 @@ function M.highlights(colors)
     IncSearch = { fg = colors.bg, bg = colors.fg },
     LineNr = { fg = colors.grey },
     CursorLineNr = { fg = colors.fg }, 
-    CursorLine = { bg = colors.select },
+    CursorLine = { bg = "None" },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     Vertsplit = { bg = colors.purple },
     FloatBorder = {fg = colors.bg , bg = colors.purple },
@@ -31,6 +31,8 @@ function M.highlights(colors)
     Identifier = { fg = colors.fg },
     Type = { fg = colors.blue },
 
+    -- NvimTree
+    NvimTreeNormal = { bg = colors.bg_dark }
   }
 end 
 
