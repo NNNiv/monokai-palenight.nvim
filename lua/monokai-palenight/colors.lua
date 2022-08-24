@@ -13,7 +13,8 @@ function M.colors()
     orange = "#fc9867",
     white = "#f0ecec", 
     comment = "#727a9c",
-    select = "#274f79"
+    select = "#274f79",
+    bg_dark = "#272b3b"
 }
 end
 
