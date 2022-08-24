@@ -9,7 +9,9 @@ function M.highlights(colors)
     LineNr = { fg = colors.grey },
     CursorLineNr = { fg = colors.fg }, 
     CursorLine = { bg = colors.select },
-    
+    NormalFloat = { fg = colors.fg, bg = colors.bg },
+    Vertsplit = { bg = colors.purple },
+    FloatBorder = {fg = colors.bg , bg = colors.purple },
 
 
     NonText = { fg = colors.bg },
@@ -22,10 +24,13 @@ function M.highlights(colors)
     Boolean = { fg = colors.purple }, 
     Number = { fg = colors.purple },
     Statement = { fg = colors.red },
-    Operator = { fg = colors.fg },
+    Operator = { fg = colors.red },
     PreProc = { fg = colors.red },
     Function = { fg = colors.green },
-    Special = { fg = colors.yellow },
+    Special = { fg = colors.grey },
+    Identifier = { fg = colors.fg },
+    Type = { fg = colors.blue },
+
   }
 end 
 
