@@ -4,7 +4,7 @@ local colors = colors_list.colors()
 return {
   inactive = {
     a = { fg = colors.bg, bg = colors.red, gui = 'bold' },
-    b = { fg = colors.bg, bg = colors.fg },
+    b = { fg = colors.bg, bg = colors.grey },
     c = { fg = colors.bg, bg = colors.comment},
   },  
   normal = {
