@@ -11,7 +11,7 @@ function M.highlights(colors)
     CursorLine = { bg = "None" },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     FloatBorder = {fg = colors.bg , bg = colors.bg_dark },
-    -- Pmenu = { fg = colors.fg, bg = colors.bg },
+    Pmenu = { fg = colors.purple, bg = colors.bg_dark },
     Vertsplit = { bg = colors.purple },
     Directory = { fg = colors.purple },
     NvimInvalid = { fg = colors.fg, bg = colors.red },
