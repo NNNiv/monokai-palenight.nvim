@@ -12,9 +12,12 @@ function M.highlights(colors)
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     Vertsplit = { bg = colors.purple },
     FloatBorder = {fg = colors.bg , bg = colors.purple },
-
+    Pmenu = { fg = colors.bg, bg = colors.purple },
+    Directory = { fg = colors.purple },
+    NvimInvali = { fg = colors.fg, bg = colors.red },
 
     NonText = { fg = colors.bg },
+
     -- Syntax
     Variable = { fg = colors.fg },
     String = { fg = colors.yellow },
@@ -27,12 +30,28 @@ function M.highlights(colors)
     Operator = { fg = colors.red },
     PreProc = { fg = colors.red },
     Function = { fg = colors.green },
-    Special = { fg = colors.grey },
-    Identifier = { fg = colors.fg },
+    Special = { fg = colors.yellow },
+    Identifier = { fg = colors.purple },
     Type = { fg = colors.blue },
 
+    -- Diagnostics
+    DiagnosticError = { fg = colors.red },
+    DiagnosticWarn = { fg = colors.yellow },
+    DiagnosticHInt = { fg = colors.grey },
+
     -- NvimTree
-    NvimTreeNormal = { bg = colors.bg_dark }
+    NvimTreeNormal = { fg = colors.fg, bg = colors.bg_dark },
+    NvimTreeRootFolder = { fg = colors.purple },
+    NvimTreeGitDirty = { fg = colors.yellow },
+    NvimTreeGitStaged = { fg = colors.green },
+    NvimTreeFolderIcon = { fg = colors.blue },
+
+    -- Bufferline
+    BufferLineTabSelected = { fg = colors.purple },
+    BufferlineIndicatorSelected = { fg = colors.purple },
+
+    --TreeSitter
+    TSFuncBuiltin = { fg = colors.green }
   }
 end 
 
