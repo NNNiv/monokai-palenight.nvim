@@ -10,12 +10,12 @@ function M.highlights(colors)
     CursorLineNr = { fg = colors.fg }, 
     CursorLine = { bg = "None" },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
+    FloatBorder = {fg = colors.bg , bg = colors.bg_dark },
+    -- Pmenu = { fg = colors.fg, bg = colors.bg },
     Vertsplit = { bg = colors.purple },
-    FloatBorder = {fg = colors.bg , bg = colors.purple },
-    Pmenu = { fg = colors.bg, bg = colors.purple },
     Directory = { fg = colors.purple },
-    NvimInvali = { fg = colors.fg, bg = colors.red },
-
+    NvimInvalid = { fg = colors.fg, bg = colors.red },
+    ErrorMsg = { fg = colors.fg, bg = colors.red },
     NonText = { fg = colors.bg },
 
     -- Syntax
@@ -33,6 +33,7 @@ function M.highlights(colors)
     Special = { fg = colors.yellow },
     Identifier = { fg = colors.purple },
     Type = { fg = colors.blue },
+    Delimiter = { fg = colors.grey },
 
     -- Diagnostics
     DiagnosticError = { fg = colors.red },
@@ -51,7 +52,16 @@ function M.highlights(colors)
     BufferlineIndicatorSelected = { fg = colors.purple },
 
     --TreeSitter
-    TSFuncBuiltin = { fg = colors.green }
+    TSFuncBuiltin = { fg = colors.green },
+
+    -- Nvim-cmp
+    CmpDocumentation = { fg = colors.fg, bg = colors.bg_dark },
+    -- CmpItemMenu = { fg = colors.fg, bg = colors.bg_dark },
+
+    -- Telescope
+    TelescopeBorder = { fg = colors.purple, bg = colors.bg },
+    TelescopeNormal = { fg = colors.fg, bg = colors.bg_dark }
+
   }
 end 
 
