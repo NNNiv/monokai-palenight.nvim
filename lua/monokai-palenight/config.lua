@@ -14,9 +14,10 @@ function M.highlights(colors)
     Pmenu = { fg = colors.purple, bg = colors.bg_dark },
     Vertsplit = { fg = colors.purple, bg = "None" },
     Directory = { fg = colors.purple },
-    NvimInvalid = { fg = colors.fg, bg = colors.red },
+    NvimInvalid = { fg = colors.red, bg = colors.bg_dark },
     ErrorMsg = { fg = colors.fg, bg = colors.red },
     NonText = { fg = colors.bg },
+    Title = { fg = colors.purple },
 
     -- Syntax
     Variable = { fg = colors.fg },
@@ -60,7 +61,12 @@ function M.highlights(colors)
 
     -- Telescope
     TelescopeBorder = { fg = colors.purple, bg = colors.bg },
-    TelescopeNormal = { fg = colors.fg, bg = colors.bg_dark }
+    TelescopeNormal = { fg = colors.fg, bg = colors.bg_dark },
+
+    -- Dashboard
+    DashboardHeader = { fg = colors.purple },
+
+
 
   }
 end 
