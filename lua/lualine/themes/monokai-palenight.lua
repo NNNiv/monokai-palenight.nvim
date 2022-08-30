@@ -25,3 +25,4 @@ return {
     b = { fg = colors.bg, bg = colors.comment },
   }
 }
+
