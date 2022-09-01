@@ -7,17 +7,18 @@ function M.highlights(colors)
     Search = { fg = colors.bg, bg = colors.fg },
     IncSearch = { fg = colors.bg, bg = colors.fg },
     LineNr = { fg = colors.grey },
-    CursorLineNr = { fg = colors.fg }, 
+    CursorLineNr = { fg = colors.fg },
     CursorLine = { bg = "None" },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
-    FloatBorder = {fg = colors.purple , bg = "None" },
+    FloatBorder = { fg = colors.purple, bg = "None" },
     Pmenu = { fg = colors.purple, bg = colors.bg_dark },
     Vertsplit = { fg = colors.purple, bg = "None" },
     Directory = { fg = colors.purple },
     NvimInvalid = { fg = colors.red, bg = colors.bg_dark },
-    ErrorMsg = { fg = colors.fg, bg = colors.red },
-    NonText = { fg = colors.bg },
+    ErrorMsg = { fg = colors.red },
     Title = { fg = colors.purple },
+    Todo = { fg = colors.orange },
+    NonText = { fg = colors.bg },
 
     -- Syntax
     Variable = { fg = colors.fg },
@@ -25,7 +26,7 @@ function M.highlights(colors)
     Character = { fg = colors.yellow },
     Constant = { fg = colors.purple },
     Comment = { fg = colors.comment },
-    Boolean = { fg = colors.purple }, 
+    Boolean = { fg = colors.purple },
     Number = { fg = colors.purple },
     Statement = { fg = colors.red },
     Operator = { fg = colors.red },
@@ -54,10 +55,16 @@ function M.highlights(colors)
 
     --TreeSitter
     TSFuncBuiltin = { fg = colors.green },
+    TSMethod = { fg = colors.blue },
 
     -- Nvim-cmp
-    CmpDocumentation = { fg = colors.fg, bg = colors.bg_dark },
-    -- CmpItemMenu = { fg = colors.fg, bg = colors.bg_dark },
+    CmpDocumentation = { fg = colors.blue, bg = colors.bg_dark },
+    CmpItemMenu = { fg = colors.fg, bg = colors.bg_dark },
+    CmpItemKind = { fg = colors.blue },
+
+    -- LSP
+    LspInfoBorder = { fg = colors.purple },
+
 
     -- Telescope
     TelescopeBorder = { fg = colors.purple, bg = colors.bg },
@@ -65,10 +72,27 @@ function M.highlights(colors)
 
     -- Dashboard
     DashboardHeader = { fg = colors.purple },
+    DashboardCenter = { fg = colors.blue },
+    DashboardFooter = { fg = colors.blue },
 
+    --[[
+    luanline_b_diff_added_normal = { fg = colors.green, bg = colors.bg_dark },
+    luanline_b_diff_added_insert = { fg = colors.green },
+    luanline_b_diff_added_visual = { fg = colors.green },
+    luanline_b_diff_added_replace = { fg = colors.green },
+    luanline_b_diff_added_command = { fg = colors.green },
+    luanline_b_diff_added_terminal = { fg = colors.green },
+
+    luanline_b_diff_removed_normal = { fg = colors.red },
+    luanline_b_diff_removed_insert = { fg = colors.red },
+    luanline_b_diff_removed_visual = { fg = colors.red },
+    luanline_b_diff_removed_replace = { fg = colors.red },
+    luanline_b_diff_removed_command = { fg = colors.red },
+    luanline_b_diff_removed_terminal = { fg = colors.red },
+    --]]
 
 
   }
-end 
+end
 
 return M
