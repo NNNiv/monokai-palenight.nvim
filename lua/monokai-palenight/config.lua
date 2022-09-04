@@ -1,5 +1,4 @@
 local M = {}
-
 function M.highlights(colors)
   return {
     Normal = { fg = colors.fg, bg = colors.bg },
@@ -12,6 +11,7 @@ function M.highlights(colors)
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     FloatBorder = { fg = colors.purple, bg = "None" },
     Pmenu = { fg = colors.purple, bg = colors.bg_dark },
+    PmenuSel = { fg = colors.purple , bg = colors.bg_dark},
     Vertsplit = { fg = colors.purple, bg = "None" },
     Directory = { fg = colors.purple },
     NvimInvalid = { fg = colors.red, bg = colors.bg_dark },
@@ -19,6 +19,7 @@ function M.highlights(colors)
     Title = { fg = colors.purple },
     Todo = { fg = colors.orange },
     NonText = { fg = colors.bg },
+    SignColumn = { bg = "None" },
 
     -- Syntax
     Variable = { fg = colors.fg },
@@ -56,6 +57,8 @@ function M.highlights(colors)
     --TreeSitter
     TSFuncBuiltin = { fg = colors.green },
     TSMethod = { fg = colors.blue },
+    TSConstructor = { fg = colors.blue },
+    TSVariableBuiltin = { fg = colors.green },
 
     -- Nvim-cmp
     CmpDocumentation = { fg = colors.blue, bg = colors.bg_dark },
@@ -74,6 +77,12 @@ function M.highlights(colors)
     DashboardHeader = { fg = colors.purple },
     DashboardCenter = { fg = colors.blue },
     DashboardFooter = { fg = colors.blue },
+
+    -- DevIcons
+    DevIconPy = { fg = colors.blue },
+    DevIconJs = { fg = colors.yellow },
+    DevIconsHtml = { fg = colors.red },
+    DevIconsC = { fg = colors.blue }
 
     --[[
     luanline_b_diff_added_normal = { fg = colors.green, bg = colors.bg_dark },
