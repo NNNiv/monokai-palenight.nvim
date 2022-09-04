@@ -82,7 +82,16 @@ function M.highlights(colors)
     DevIconPy = { fg = colors.blue },
     DevIconJs = { fg = colors.yellow },
     DevIconsHtml = { fg = colors.red },
-    DevIconsC = { fg = colors.blue }
+    DevIconsC = { fg = colors.blue },
+
+    -- GitSigns
+    GitSignsAdd = { fg = colors.green, bg = "None" },
+    GitSignsChange = { fg = colors.yellow, bg = "None" },
+    GitSignsDelete = { fg = colors.red, bg = "None" },
+
+
+
+
 
     --[[
     luanline_b_diff_added_normal = { fg = colors.green, bg = colors.bg_dark },
@@ -99,6 +108,7 @@ function M.highlights(colors)
     luanline_b_diff_removed_command = { fg = colors.red },
     luanline_b_diff_removed_terminal = { fg = colors.red },
     --]]
+
 
 
   }
