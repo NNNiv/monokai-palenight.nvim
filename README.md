@@ -5,7 +5,7 @@
 ![theme-pic](https://raw.githubusercontent.com/NNNiv/images/main/Screenshot%20from%202022-09-04%2018-48-15.png)
 
 ## Supported Plugins
-* Treesitter 
+* Treesitter [recommended for better syntax highlighting]
 * NvimTree
 * LuaLine
 * Treesitter
