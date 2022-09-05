@@ -81,8 +81,9 @@ function M.highlights(colors)
     -- DevIcons
     DevIconPy = { fg = colors.blue },
     DevIconJs = { fg = colors.yellow },
-    DevIconsHtml = { fg = colors.red },
-    DevIconsC = { fg = colors.blue },
+    DevIconHtml = { fg = colors.red },
+    DevIconC = { fg = colors.blue },
+    DevIconLua = { fg = colors.blue},
 
     -- GitSigns
     GitSignsAdd = { fg = colors.green, bg = "None" },
