@@ -55,10 +55,15 @@ function M.highlights(colors)
     BufferlineIndicatorSelected = { fg = colors.purple },
 
     --TreeSitter
-    TSFuncBuiltin = { fg = colors.green },
-    TSMethod = { fg = colors.blue },
-    TSConstructor = { fg = colors.blue },
-    TSVariableBuiltin = { fg = colors.green },
+    --TSFuncBuiltin = { fg = colors.green },
+    --TSMethod = { fg = colors.blue },
+    --TSConstructor = { fg = colors.blue },
+    --TSVariableBuiltin = { fg = colors.green },
+    ["@function.builtin"] = { fg = colors.green },
+    ["@constructor"] = { fg = colors.blue },
+    ["@variable.builtin"] = { fg = colors.green },
+    ["@punctuation.bracket"] = { fg = colors.purple },
+
 
     -- Nvim-cmp
     CmpDocumentation = { fg = colors.blue, bg = colors.bg_dark },
