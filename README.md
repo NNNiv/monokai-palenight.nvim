@@ -1,8 +1,7 @@
 # Neovim colorscheme inspired by Monokai Pro and Juno Palenight (GTK Theme)
 
 ## Work in progress
-
-![theme-pic](https://raw.githubusercontent.com/NNNiv/images/main/Screenshot%20from%202022-09-04%2018-48-15.png)
+![theme-pic](https://raw.githubusercontent.com/NNNiv/images/main/Colorscheme.png)
 
 ## Install
 
