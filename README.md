@@ -21,5 +21,4 @@ vim.cmd[[ colorscheme monokai-palenight ]]
 * Treesitter
 * Telescope
 * GitSigns
-* Bufferline [incomplete]
-
+* Todo Comments
