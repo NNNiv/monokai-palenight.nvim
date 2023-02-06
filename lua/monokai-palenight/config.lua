@@ -17,7 +17,7 @@ function M.highlights(colors)
     NvimInvalid = { fg = colors.red, bg = colors.bg_dark },
     ErrorMsg = { fg = colors.red },
     Title = { fg = colors.purple },
-    Todo = { fg = colors.orange },
+    -- Todo = { fg = colors.orange }, 
     NonText = { fg = colors.bg },
     SignColumn = { bg = "None" },
 
@@ -55,14 +55,10 @@ function M.highlights(colors)
     BufferlineIndicatorSelected = { fg = colors.purple },
 
     --TreeSitter
-    --TSFuncBuiltin = { fg = colors.green },
-    --TSMethod = { fg = colors.blue },
-    --TSConstructor = { fg = colors.blue },
-    --TSVariableBuiltin = { fg = colors.green },
     ["@function.builtin"] = { fg = colors.green },
     ["@constructor"] = { fg = colors.blue },
-    ["@variable.builtin"] = { fg = colors.green },
-    ["@punctuation.bracket"] = { fg = colors.purple },
+    ["@variable.builtin"] = { fg = colors.blue},
+    ["@punctuation.bracket"] = { fg = colors.orange },
 
 
     -- Nvim-cmp
@@ -96,9 +92,34 @@ function M.highlights(colors)
     GitSignsDelete = { fg = colors.red, bg = "None" },
 
 
+    -- Indent blankline
+    IndentBlanklineChar = { fg = colors.comment },
+    IndentBlanklineContextChar = { fg = colors.purple },
+    IndentBlanklineSpaceCharBlankline = { fg = colors.comment },
 
 
-
+    -- Todo comments 
+    TodoBgTEST = { fg = colors.bg_dark , bg = colors.purple },
+    TodoFgTEST = { fg = colors.purple },
+    TodoSignTEST = { fg = colors.purple },
+    TodoBgTODO = { fg = colors.bg_dark, bg = colors.orange },
+    TodoFgTODO = { fg = colors.orange },
+    TodoSignFg = { fg = colors.orange },
+    TodoBgWARN = { fg = colors.bg_dark, bg = colors.yellow },
+    TodoFgWARN = { fg = colors.yellow },
+    TodoSignWARN = { fg = colors.yellow },
+    TodoBgFIX = { fg = colors.bg_dark, bg = colors.red },
+    TodoFgFIX = { fg = colors.red },
+    TodoSignFIX = { fg = colors.red },
+    TodoBgNOTE = { fg = colors.bg_dark, bg = colors.blue },
+    TodoFgNOTE = { fg = colors.blue },
+    TodoSignNOTE = { fg = colors.blue },
+    TodoBgPERF = { fg = colors.bg_dark, bg = colors.purple },
+    TodoFgPERF = { fg = colors.purple },
+    TodoSignPERF = { fg = colors.purple },
+    TodoBgHACK = { fg = colors.green },
+    TodoFgHACK = { fg = colors.green },
+    TodoSignHACK = { fg = colors.green }
     --[[
     luanline_b_diff_added_normal = { fg = colors.green, bg = colors.bg_dark },
     luanline_b_diff_added_insert = { fg = colors.green },
