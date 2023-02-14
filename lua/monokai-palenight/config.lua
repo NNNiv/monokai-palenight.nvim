@@ -59,6 +59,7 @@ function M.highlights(colors)
     ["@constructor"] = { fg = colors.blue },
     ["@variable.builtin"] = { fg = colors.blue},
     ["@punctuation.bracket"] = { fg = colors.orange },
+    ["@variable"] = { fg = colors.fg },
 
 
     -- Nvim-cmp
