@@ -8,6 +8,7 @@ function M.setup(opts)
   end
   local colors = colors_list.colors()
   vim.opt.termguicolors = true
+  vim.g.colors_name = "Monokai-Palenight"
   highlights.set_highlight(colors, opts)
 end
 
