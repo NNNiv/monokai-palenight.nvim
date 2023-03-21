@@ -21,6 +21,8 @@ function M.highlights(colors)
     NonText = { fg = colors.bg },
     SignColumn = { bg = "None" },
 
+
+
     -- Syntax
     Variable = { fg = colors.fg },
     String = { fg = colors.yellow },
@@ -38,6 +40,11 @@ function M.highlights(colors)
     Type = { fg = colors.blue },
     Delimiter = { fg = colors.grey },
 
+    -- Diff
+    DiffAdd = { fg = colors.green, bg = colors.bg },
+    DiffChange = { fg = colors.yellow , bg = colors.bg },
+    DiffDelete = { fg = colors.red , bg = colors.bg },
+
     -- Diagnostics
     DiagnosticError = { fg = colors.red },
     DiagnosticWarn = { fg = colors.yellow },
@@ -51,8 +58,9 @@ function M.highlights(colors)
     NvimTreeFolderIcon = { fg = colors.blue },
 
     -- Bufferline
-    BufferLineTabSelected = { fg = colors.purple },
-    BufferlineIndicatorSelected = { fg = colors.purple },
+    -- BufferLineTabSelected = { fg = colors.purple },
+    -- BufferlineIndicatorSelected = { fg = colors.purple },
+    BufferLineBackground = { bg = "None" },
 
     --TreeSitter
     ["@function.builtin"] = { fg = colors.green },
@@ -60,6 +68,7 @@ function M.highlights(colors)
     ["@variable.builtin"] = { fg = colors.blue},
     ["@punctuation.bracket"] = { fg = colors.orange },
     ["@variable"] = { fg = colors.fg },
+    ["@constant.builtin"] = { fg = colors.fg },
 
 
     -- Nvim-cmp
@@ -121,21 +130,6 @@ function M.highlights(colors)
     TodoBgHACK = { fg = colors.green },
     TodoFgHACK = { fg = colors.green },
     TodoSignHACK = { fg = colors.green }
-    --[[
-    luanline_b_diff_added_normal = { fg = colors.green, bg = colors.bg_dark },
-    luanline_b_diff_added_insert = { fg = colors.green },
-    luanline_b_diff_added_visual = { fg = colors.green },
-    luanline_b_diff_added_replace = { fg = colors.green },
-    luanline_b_diff_added_command = { fg = colors.green },
-    luanline_b_diff_added_terminal = { fg = colors.green },
-
-    luanline_b_diff_removed_normal = { fg = colors.red },
-    luanline_b_diff_removed_insert = { fg = colors.red },
-    luanline_b_diff_removed_visual = { fg = colors.red },
-    luanline_b_diff_removed_replace = { fg = colors.red },
-    luanline_b_diff_removed_command = { fg = colors.red },
-    luanline_b_diff_removed_terminal = { fg = colors.red },
-    --]]
 
 
 
