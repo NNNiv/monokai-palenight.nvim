@@ -14,7 +14,8 @@ function M.colors()
     white = "#f0ecec",
     comment = "#727a9c",
     select = "#274f79",
-    bg_dark = "#272b3b"
+    bg_dark = "#272b3b",
+    bg_darker = "#252838"
 }
 end
 

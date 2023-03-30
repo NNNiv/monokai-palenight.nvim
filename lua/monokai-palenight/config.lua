@@ -1,4 +1,5 @@
 local M = {}
+
 function M.highlights(colors)
   return {
     Normal = { fg = colors.fg, bg = colors.bg },
@@ -20,7 +21,6 @@ function M.highlights(colors)
     -- Todo = { fg = colors.orange }, 
     NonText = { fg = colors.bg },
     SignColumn = { bg = "None" },
-
 
 
     -- Syntax
@@ -51,16 +51,16 @@ function M.highlights(colors)
     DiagnosticHInt = { fg = colors.grey },
 
     -- NvimTree
-    NvimTreeNormal = { fg = colors.fg, bg = colors.bg_dark },
+    NvimTreeNormal = { fg = colors.fg, bg = colors.bg_darker },
     NvimTreeRootFolder = { fg = colors.purple },
     NvimTreeGitDirty = { fg = colors.yellow },
     NvimTreeGitStaged = { fg = colors.green },
     NvimTreeFolderIcon = { fg = colors.blue },
 
     -- Bufferline
-    -- BufferLineTabSelected = { fg = colors.purple },
-    -- BufferlineIndicatorSelected = { fg = colors.purple },
-    BufferLineBackground = { bg = "None" },
+    BufferLineTabSelected = { fg = colors.purple },
+    BufferlineIndicatorSelected = { fg = colors.purple },
+    BufferLineBackground = { bg = colors.bg_dark },
 
     --TreeSitter
     ["@function.builtin"] = { fg = colors.green },
