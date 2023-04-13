@@ -72,10 +72,7 @@ function M.highlights(colors)
     ["@constant.builtin"] = { fg = colors.fg },
     ["@tag"] = {fg = colors.blue },
     ["@tag.attribute"] = { fg = colors.yellow },
-    ["@tag.delimiter"] = { fg = colors.red },
-    ["@spell"] = { fg = colors.green },
-
-
+    ["@spell"] = { fg = colors.green } ,
 
 
     -- Nvim-cmp
