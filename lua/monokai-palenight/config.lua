@@ -71,9 +71,9 @@ function M.highlights(colors)
     ["@variable"] = { fg = colors.fg },
     ["@constant.builtin"] = { fg = colors.fg },
     ["@tag"] = {fg = colors.blue },
-    ["@tag.attribute"] = { fg = colors.yellow },
+    ["@tag.attribute"] = { fg = colors.green },
     ["@tag.delimiter"] = { fg = colors.red },
-    ["@spell"] = { fg = colors.green },
+    ["@spell"] = { fg = colors.yellow },
 
 
 
