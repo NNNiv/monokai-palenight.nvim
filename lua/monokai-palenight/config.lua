@@ -73,7 +73,8 @@ function M.highlights(colors)
     ["@tag"] = {fg = colors.blue },
     ["@tag.attribute"] = { fg = colors.green },
     ["@tag.delimiter"] = { fg = colors.red },
-    ["@spell"] = { fg = colors.yellow },
+    -- ["@spell"] = { fg = colors.yellow },
+    ["@comment"] = { fg = colors.comment },
 
 
 
