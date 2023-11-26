@@ -1,7 +1,11 @@
 # Neovim colorscheme inspired by Monokai Pro and Juno Palenight (GTK Theme)
 
-## Work in progress
-![theme-pic](https://raw.githubusercontent.com/NNNiv/images/main/Monokai-Palenight.png)
+## Lualine themes
+* monokai-palenight
+![default](https://raw.githubusercontent.com/NNNiv/images/main/lualine_normal.png)
+
+* monokai-palenight-minimal
+![minimal](https://raw.githubusercontent.com/NNNiv/images/main/lualine_minimal)
 
 ## Install
 
@@ -13,6 +17,10 @@ use "NNNiv/monokai-palenight.nvim"
 ```lua
 vim.cmd[[ colorscheme monokai-palenight ]]
 ``` 
+
+
+
+
 ## Supported Plugins
 * Treesitter [recommended for better syntax highlighting]
 * NvimTree
