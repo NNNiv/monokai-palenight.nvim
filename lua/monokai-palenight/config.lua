@@ -1,5 +1,4 @@
 local M = {}
-
 function M.highlights(colors)
   return {
     Normal = { fg = colors.fg, bg = colors.bg },
@@ -12,16 +11,15 @@ function M.highlights(colors)
     NormalFloat = { fg = colors.fg, bg = colors.bg },
     FloatBorder = { fg = colors.purple, bg = "None" },
     Pmenu = { fg = colors.purple, bg = colors.bg_dark },
-    PmenuSel = { fg = colors.purple , bg = colors.bg_dark},
+    PmenuSel = { fg = colors.purple, bg = colors.bg_dark },
     Vertsplit = { fg = colors.purple, bg = "None" },
     Directory = { fg = colors.purple },
     NvimInvalid = { fg = colors.red, bg = colors.bg_dark },
     ErrorMsg = { fg = colors.red },
     Title = { fg = colors.purple },
-    -- Todo = { fg = colors.orange }, 
+    -- Todo = { fg = colors.orange },
     NonText = { fg = colors.bg },
     SignColumn = { bg = "None" },
-
 
     -- Syntax
     Variable = { fg = colors.fg },
@@ -40,11 +38,10 @@ function M.highlights(colors)
     Type = { fg = colors.blue },
     Delimiter = { fg = colors.grey },
 
-
     -- Diff
     DiffAdd = { fg = colors.green, bg = colors.bg },
-    DiffChange = { fg = colors.yellow , bg = colors.bg },
-    DiffDelete = { fg = colors.red , bg = colors.bg },
+    DiffChange = { fg = colors.yellow, bg = colors.bg },
+    DiffDelete = { fg = colors.red, bg = colors.bg },
 
     -- Diagnostics
     DiagnosticError = { fg = colors.red },
@@ -66,18 +63,15 @@ function M.highlights(colors)
     --TreeSitter
     ["@function.builtin"] = { fg = colors.green },
     ["@constructor"] = { fg = colors.blue },
-    ["@variable.builtin"] = { fg = colors.blue},
+    ["@variable.builtin"] = { fg = colors.blue },
     ["@punctuation.bracket"] = { fg = colors.orange },
     ["@variable"] = { fg = colors.fg },
     ["@constant.builtin"] = { fg = colors.fg },
-    ["@tag"] = {fg = colors.blue },
+    ["@tag"] = { fg = colors.blue },
     ["@tag.attribute"] = { fg = colors.green },
     ["@tag.delimiter"] = { fg = colors.red },
     -- ["@spell"] = { fg = colors.yellow },
     ["@comment"] = { fg = colors.comment },
-
-
-
 
     -- Nvim-cmp
     CmpDocumentation = { fg = colors.blue, bg = colors.bg_dark },
@@ -86,7 +80,6 @@ function M.highlights(colors)
 
     -- LSP
     LspInfoBorder = { fg = colors.purple },
-
 
     -- Telescope
     TelescopeBorder = { fg = colors.purple, bg = colors.bg },
@@ -102,22 +95,20 @@ function M.highlights(colors)
     DevIconJs = { fg = colors.yellow },
     DevIconHtml = { fg = colors.red },
     DevIconC = { fg = colors.blue },
-    DevIconLua = { fg = colors.blue},
+    DevIconLua = { fg = colors.blue },
 
     -- GitSigns
     GitSignsAdd = { fg = colors.green, bg = "None" },
     GitSignsChange = { fg = colors.yellow, bg = "None" },
     GitSignsDelete = { fg = colors.red, bg = "None" },
 
-
     -- Indent blankline
     IndentBlanklineChar = { fg = colors.comment },
     IndentBlanklineContextChar = { fg = colors.purple },
     IndentBlanklineSpaceCharBlankline = { fg = colors.comment },
 
-
-    -- Todo comments 
-    TodoBgTEST = { fg = colors.bg_dark , bg = colors.purple },
+    -- Todo comments
+    TodoBgTEST = { fg = colors.bg_dark, bg = colors.purple },
     TodoFgTEST = { fg = colors.purple },
     TodoSignTEST = { fg = colors.purple },
     TodoBgTODO = { fg = colors.bg_dark, bg = colors.orange },
@@ -137,10 +128,7 @@ function M.highlights(colors)
     TodoSignPERF = { fg = colors.purple },
     TodoBgHACK = { fg = colors.green },
     TodoFgHACK = { fg = colors.green },
-    TodoSignHACK = { fg = colors.green }
-
-
-
+    TodoSignHACK = { fg = colors.green },
   }
 end
 
