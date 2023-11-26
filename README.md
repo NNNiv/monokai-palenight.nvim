@@ -2,10 +2,12 @@
 
 ## Lualine themes
 * monokai-palenight
+
 ![default](https://raw.githubusercontent.com/NNNiv/images/main/lualine_normal.png)
 
 * monokai-palenight-minimal
-![minimal](https://raw.githubusercontent.com/NNNiv/images/main/lualine_minimal)
+
+![minimal](https://raw.githubusercontent.com/NNNiv/images/main/lualine_minimal.png)
 
 ## Install
 
