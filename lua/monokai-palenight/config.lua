@@ -37,6 +37,8 @@ function M.highlights(colors)
     Type = { fg = colors.blue },
     Delimiter = { fg = colors.grey },
     Identifier = { fg = "None" },
+    -- jsonFold = { fg = colors.yellow },
+    htmlEndTag = { fg = colors.green },
 
     -- Diff
     DiffAdd = { fg = colors.green, bg = colors.bg },
