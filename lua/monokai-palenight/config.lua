@@ -34,9 +34,9 @@ function M.highlights(colors)
     PreProc = { fg = colors.red },
     Function = { fg = colors.green },
     Special = { fg = colors.yellow },
-    Identifier = { fg = colors.purple },
     Type = { fg = colors.blue },
     Delimiter = { fg = colors.grey },
+    Identifier = { fg = "None" },
 
     -- Diff
     DiffAdd = { fg = colors.green, bg = colors.bg },
@@ -60,18 +60,23 @@ function M.highlights(colors)
     BufferlineIndicatorSelected = { fg = colors.purple },
     BufferLineBackground = { bg = colors.bg_dark },
 
-    --TreeSitter
-    ["@function.builtin"] = { fg = colors.green },
-    ["@constructor"] = { fg = colors.blue },
-    ["@variable.builtin"] = { fg = colors.blue },
-    ["@punctuation.bracket"] = { fg = colors.orange },
-    ["@variable"] = { fg = colors.fg },
+    -- TreeSitter
+    ["@attribute"] = { fg = colors.red },
+    ["@comment"] = { fg = colors.comment },
     ["@constant.builtin"] = { fg = colors.fg },
+    ["@constructor"] = { fg = colors.blue },
+    ["@function.builtin"] = { fg = colors.green },
+    ["@keyword.directive"] = { fg = colors.yellow },
+    ["@punctuation.bracket"] = { fg = colors.orange },
+    -- ["@spell"] = { fg = colors.yellow },
     ["@tag"] = { fg = colors.blue },
     ["@tag.attribute"] = { fg = colors.green },
     ["@tag.delimiter"] = { fg = colors.red },
-    -- ["@spell"] = { fg = colors.yellow },
-    ["@comment"] = { fg = colors.comment },
+    ["@type.qualifier"] = { fg = colors.red },
+    ["@variable"] = { fg = colors.fg },
+    ["@variable.builtin"] = { fg = colors.blue },
+    ["@variable.member"] = { fg = colors.purple },
+    ["@variable.parameter"] = { fg = colors.purple },
 
     -- Nvim-cmp
     CmpDocumentation = { fg = colors.blue, bg = colors.bg_dark },
