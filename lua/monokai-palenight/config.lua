@@ -75,6 +75,7 @@ function M.highlights(colors)
     ["@tag.attribute"] = { fg = colors.green },
     ["@tag.delimiter"] = { fg = colors.red },
     ["@type.qualifier"] = { fg = colors.red },
+    ["@type.builtin"] = { fg = colors.blue },
     ["@variable"] = { fg = colors.fg },
     ["@variable.builtin"] = { fg = colors.blue },
     ["@variable.member"] = { fg = colors.purple },
@@ -87,6 +88,7 @@ function M.highlights(colors)
 
     -- LSP
     LspInfoBorder = { fg = colors.purple },
+    LSPInlayHint = { fg = colors.comment },
 
     -- Telescope
     TelescopeBorder = { fg = colors.purple, bg = colors.bg },
