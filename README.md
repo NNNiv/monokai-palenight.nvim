@@ -3,15 +3,15 @@
 ## Lualine themes
 * monokai-palenight
 
-![default](https://raw.githubusercontent.com/NNNiv/images/main/lualine_normal.png)
+![default](https://raw.githubusercontent.com/NNNiv/images/main/monokai-palenight.nvim/lualine_normal.png)
 
 * monokai-palenight-minimal
 
-![minimal](https://raw.githubusercontent.com/NNNiv/images/main/lualine_minimal.png)
+![minimal](https://raw.githubusercontent.com/NNNiv/images/main/monokai-palenight.nvim/lualine_minimal.png)
 
 ## Install
 
-## Packer
+#### Packer
 ```lua
 use "NNNiv/monokai-palenight.nvim"
 ```
@@ -19,10 +19,6 @@ use "NNNiv/monokai-palenight.nvim"
 ```lua
 vim.cmd[[ colorscheme monokai-palenight ]]
 ``` 
-
-
-
-
 ## Supported Plugins
 * Treesitter [recommended for better syntax highlighting]
 * NvimTree
